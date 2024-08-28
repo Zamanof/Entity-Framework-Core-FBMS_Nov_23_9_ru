@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 01. ADO .NET", "EF Core 01. ADO .NET\EF Core 01. ADO .NET.csproj", "{C50EA03D-468E-4337-848E-CF2ECD8A4D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 01. ADO .NET", "EF Core 01. ADO .NET\EF Core 01. ADO .NET.csproj", "{C50EA03D-468E-4337-848E-CF2ECD8A4D65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 01", "EF Core 01", "{1A46C9FF-D835-48D8-A533-DB827E46B42E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 01. ADO Read Data", "EF Core 01. ADO Read Data\EF Core 01. ADO Read Data.csproj", "{8DB39AFF-7E83-4FCB-8FB8-AD0DF0FF6B0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 01. ADO Read Data", "EF Core 01. ADO Read Data\EF Core 01. ADO Read Data.csproj", "{8DB39AFF-7E83-4FCB-8FB8-AD0DF0FF6B0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 01. MultiQuery", "EF Core 01. MultiQuery\EF Core 01. MultiQuery.csproj", "{DC791EA2-462D-4BF5-9577-80D4032234D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 01. MultiQuery", "EF Core 01. MultiQuery\EF Core 01. MultiQuery.csproj", "{DC791EA2-462D-4BF5-9577-80D4032234D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 01. Configuration file", "EF Core 01. Configuration file\EF Core 01. Configuration file.csproj", "{ED1EE17D-8592-4FAF-B8FC-DE3E2D8AA907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 01. Configuration file", "EF Core 01. Configuration file\EF Core 01. Configuration file.csproj", "{ED1EE17D-8592-4FAF-B8FC-DE3E2D8AA907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 01. Parametrized Query", "EF Core 01. Parametrized Query\EF Core 01. Parametrized Query.csproj", "{92EF5272-260C-43FA-88BF-1C66F7BEE370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 01. Parametrized Query", "EF Core 01. Parametrized Query\EF Core 01. Parametrized Query.csproj", "{92EF5272-260C-43FA-88BF-1C66F7BEE370}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 02", "EF Core 02", "{DF94520E-E418-461E-A84D-EB10F88FD5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 02. Entity Start", "EF Core 02. Entity Start\EF Core 02. Entity Start.csproj", "{92878653-DAE0-40B2-9E15-95271CF6A3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 02. DatabaseFirst", "EF Core 02. DatabaseFirst\EF Core 02. DatabaseFirst.csproj", "{25F5AC48-4B35-4A09-928E-153A5780AEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 02. Database First Sacaffolding", "EF Core 02. Database First Sacaffolding\EF Core 02. Database First Sacaffolding.csproj", "{E5A24795-A664-47B1-BBF6-81EFEF2757F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +49,18 @@ Global
 		{92EF5272-260C-43FA-88BF-1C66F7BEE370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92EF5272-260C-43FA-88BF-1C66F7BEE370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92EF5272-260C-43FA-88BF-1C66F7BEE370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92878653-DAE0-40B2-9E15-95271CF6A3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92878653-DAE0-40B2-9E15-95271CF6A3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92878653-DAE0-40B2-9E15-95271CF6A3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92878653-DAE0-40B2-9E15-95271CF6A3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25F5AC48-4B35-4A09-928E-153A5780AEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25F5AC48-4B35-4A09-928E-153A5780AEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25F5AC48-4B35-4A09-928E-153A5780AEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25F5AC48-4B35-4A09-928E-153A5780AEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +71,9 @@ Global
 		{DC791EA2-462D-4BF5-9577-80D4032234D7} = {1A46C9FF-D835-48D8-A533-DB827E46B42E}
 		{ED1EE17D-8592-4FAF-B8FC-DE3E2D8AA907} = {1A46C9FF-D835-48D8-A533-DB827E46B42E}
 		{92EF5272-260C-43FA-88BF-1C66F7BEE370} = {1A46C9FF-D835-48D8-A533-DB827E46B42E}
+		{92878653-DAE0-40B2-9E15-95271CF6A3E7} = {DF94520E-E418-461E-A84D-EB10F88FD5EB}
+		{25F5AC48-4B35-4A09-928E-153A5780AEA6} = {DF94520E-E418-461E-A84D-EB10F88FD5EB}
+		{E5A24795-A664-47B1-BBF6-81EFEF2757F2} = {DF94520E-E418-461E-A84D-EB10F88FD5EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F786F157-37E3-4274-B297-3F3073DD6C66}
