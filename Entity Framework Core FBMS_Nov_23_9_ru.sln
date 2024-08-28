@@ -17,11 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 01. Parametrized Qu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 02", "EF Core 02", "{DF94520E-E418-461E-A84D-EB10F88FD5EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 02. Entity Start", "EF Core 02. Entity Start\EF Core 02. Entity Start.csproj", "{92878653-DAE0-40B2-9E15-95271CF6A3E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 02. Entity Start", "EF Core 02. Entity Start\EF Core 02. Entity Start.csproj", "{92878653-DAE0-40B2-9E15-95271CF6A3E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 02. DatabaseFirst", "EF Core 02. DatabaseFirst\EF Core 02. DatabaseFirst.csproj", "{25F5AC48-4B35-4A09-928E-153A5780AEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 02. DatabaseFirst", "EF Core 02. DatabaseFirst\EF Core 02. DatabaseFirst.csproj", "{25F5AC48-4B35-4A09-928E-153A5780AEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 02. Database First Sacaffolding", "EF Core 02. Database First Sacaffolding\EF Core 02. Database First Sacaffolding.csproj", "{E5A24795-A664-47B1-BBF6-81EFEF2757F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 02. Database First Sacaffolding", "EF Core 02. Database First Sacaffolding\EF Core 02. Database First Sacaffolding.csproj", "{E5A24795-A664-47B1-BBF6-81EFEF2757F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 03", "EF Core 03", "{E44879B8-D9DF-4D6F-98F0-BB8A1F83009D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 03. LINQ For Entity", "EF Core 03. LINQ For Entity\EF Core 03. LINQ For Entity.csproj", "{1C36798B-1493-4917-87B9-BC865CF78F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,10 @@ Global
 		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5A24795-A664-47B1-BBF6-81EFEF2757F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C36798B-1493-4917-87B9-BC865CF78F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C36798B-1493-4917-87B9-BC865CF78F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C36798B-1493-4917-87B9-BC865CF78F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C36798B-1493-4917-87B9-BC865CF78F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +82,7 @@ Global
 		{92878653-DAE0-40B2-9E15-95271CF6A3E7} = {DF94520E-E418-461E-A84D-EB10F88FD5EB}
 		{25F5AC48-4B35-4A09-928E-153A5780AEA6} = {DF94520E-E418-461E-A84D-EB10F88FD5EB}
 		{E5A24795-A664-47B1-BBF6-81EFEF2757F2} = {DF94520E-E418-461E-A84D-EB10F88FD5EB}
+		{1C36798B-1493-4917-87B9-BC865CF78F3B} = {E44879B8-D9DF-4D6F-98F0-BB8A1F83009D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F786F157-37E3-4274-B297-3F3073DD6C66}
