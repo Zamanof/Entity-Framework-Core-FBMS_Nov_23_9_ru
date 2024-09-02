@@ -29,11 +29,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 03. LINQ For Entity
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 04", "EF Core 04", "{A973D369-31E3-40E5-BA9B-9B169B79D03B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 04. Code First. One To One", "EF Core 04. Code First. One To One\EF Core 04. Code First. One To One.csproj", "{A07B94B4-0473-48EC-860D-CB4B868B1098}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 04. Code First. One To One", "EF Core 04. Code First. One To One\EF Core 04. Code First. One To One.csproj", "{A07B94B4-0473-48EC-860D-CB4B868B1098}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 04. Code First. One To Many", "EF Core 04. Code First. One To Many\EF Core 04. Code First. One To Many.csproj", "{571C64BD-A451-444A-805A-6BAC058226AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 04. Code First. One To Many", "EF Core 04. Code First. One To Many\EF Core 04. Code First. One To Many.csproj", "{571C64BD-A451-444A-805A-6BAC058226AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 04. Code First. Many To Many", "EF Core 04. Code First. Many To Many\EF Core 04. Code First. Many To Many.csproj", "{93F7B891-7CEC-4DB2-86EB-6CC0E1E5B24B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 04. Code First. Many To Many", "EF Core 04. Code First. Many To Many\EF Core 04. Code First. Many To Many.csproj", "{93F7B891-7CEC-4DB2-86EB-6CC0E1E5B24B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 05", "EF Core 05", "{09D86AA0-74C3-4101-8CF6-101ACC88417D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 05. Annotations", "EF Core 05. Annotations\EF Core 05. Annotations.csproj", "{951C018E-FC56-4FE7-AE1F-08E723B4557A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 05. Fluent Api", "EF Core 05. Fluent Api\EF Core 05. Fluent Api.csproj", "{5540B195-0815-4183-B80C-CF9F2E59F316}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +95,14 @@ Global
 		{93F7B891-7CEC-4DB2-86EB-6CC0E1E5B24B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F7B891-7CEC-4DB2-86EB-6CC0E1E5B24B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F7B891-7CEC-4DB2-86EB-6CC0E1E5B24B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{951C018E-FC56-4FE7-AE1F-08E723B4557A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{951C018E-FC56-4FE7-AE1F-08E723B4557A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{951C018E-FC56-4FE7-AE1F-08E723B4557A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{951C018E-FC56-4FE7-AE1F-08E723B4557A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5540B195-0815-4183-B80C-CF9F2E59F316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5540B195-0815-4183-B80C-CF9F2E59F316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5540B195-0815-4183-B80C-CF9F2E59F316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5540B195-0815-4183-B80C-CF9F2E59F316}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +120,8 @@ Global
 		{A07B94B4-0473-48EC-860D-CB4B868B1098} = {A973D369-31E3-40E5-BA9B-9B169B79D03B}
 		{571C64BD-A451-444A-805A-6BAC058226AC} = {A973D369-31E3-40E5-BA9B-9B169B79D03B}
 		{93F7B891-7CEC-4DB2-86EB-6CC0E1E5B24B} = {A973D369-31E3-40E5-BA9B-9B169B79D03B}
+		{951C018E-FC56-4FE7-AE1F-08E723B4557A} = {09D86AA0-74C3-4101-8CF6-101ACC88417D}
+		{5540B195-0815-4183-B80C-CF9F2E59F316} = {09D86AA0-74C3-4101-8CF6-101ACC88417D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F786F157-37E3-4274-B297-3F3073DD6C66}
