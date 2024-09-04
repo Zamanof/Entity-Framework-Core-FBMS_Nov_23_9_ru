@@ -4,7 +4,7 @@
 // Database First
 // Code First
 // Model First
-
+Console.WriteLine();
 #region Add Data
 
 //using (StudentContext db = new StudentContext())
