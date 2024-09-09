@@ -49,11 +49,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 06. Migrations", "E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 07", "EF Core 07", "{5E10918C-8A4A-4571-AFF7-3B0CDCEB2ED6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 07.  Loadings. Eager loading", "EF Core 07.  Loadings. Eager loading\EF Core 07.  Loadings. Eager loading.csproj", "{56242502-7E67-47AC-8F34-B63DC2224B16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 07.  Loadings. Eager loading", "EF Core 07.  Loadings. Eager loading\EF Core 07.  Loadings. Eager loading.csproj", "{56242502-7E67-47AC-8F34-B63DC2224B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 07. Explicit Loading", "EF Core 07. Explicit Loading\EF Core 07. Explicit Loading.csproj", "{FCE63425-4500-4275-ACDE-1ADE5A51CC42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 07. Explicit Loading", "EF Core 07. Explicit Loading\EF Core 07. Explicit Loading.csproj", "{FCE63425-4500-4275-ACDE-1ADE5A51CC42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 07. Loadings. Lazy loading", "EF Core 07. Loadings. Lazy loading\EF Core 07. Loadings. Lazy loading.csproj", "{71093A66-E7A3-4058-A24F-2900975ED7C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 07. Loadings. Lazy loading", "EF Core 07. Loadings. Lazy loading\EF Core 07. Loadings. Lazy loading.csproj", "{71093A66-E7A3-4058-A24F-2900975ED7C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 08", "EF Core 08", "{8973C2D1-2D6D-4D31-ABBF-DD5349C29B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 08. Dapper ORM", "EF Core 08. Dapper ORM\EF Core 08. Dapper ORM.csproj", "{985C2518-F0B2-46EC-9609-4BD199AD56BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +141,10 @@ Global
 		{71093A66-E7A3-4058-A24F-2900975ED7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71093A66-E7A3-4058-A24F-2900975ED7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71093A66-E7A3-4058-A24F-2900975ED7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +169,7 @@ Global
 		{56242502-7E67-47AC-8F34-B63DC2224B16} = {5E10918C-8A4A-4571-AFF7-3B0CDCEB2ED6}
 		{FCE63425-4500-4275-ACDE-1ADE5A51CC42} = {5E10918C-8A4A-4571-AFF7-3B0CDCEB2ED6}
 		{71093A66-E7A3-4058-A24F-2900975ED7C7} = {5E10918C-8A4A-4571-AFF7-3B0CDCEB2ED6}
+		{985C2518-F0B2-46EC-9609-4BD199AD56BC} = {8973C2D1-2D6D-4D31-ABBF-DD5349C29B10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F786F157-37E3-4274-B297-3F3073DD6C66}
