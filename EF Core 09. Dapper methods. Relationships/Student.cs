@@ -1,6 +1,6 @@
 ﻿namespace EF_Core_09._Dapper_methods._Relationships;
 
-public class Student
+internal class Student
 {
     public int Id { get; set; }
 
@@ -11,9 +11,10 @@ public class Student
     public int IdGroup { get; set; }
 
     public int Term { get; set; }
+    public virtual Group Group { get; set; }
 
     public override string ToString()
     {
-        return $"{FirstName} {LastName}";
+        return $"{FirstName} {LastName} - {Group.Name}";
     }
 }

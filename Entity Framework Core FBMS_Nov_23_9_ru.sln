@@ -57,7 +57,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 07. Loadings. Lazy 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 08", "EF Core 08", "{8973C2D1-2D6D-4D31-ABBF-DD5349C29B10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 08. Dapper ORM", "EF Core 08. Dapper ORM\EF Core 08. Dapper ORM.csproj", "{985C2518-F0B2-46EC-9609-4BD199AD56BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF Core 08. Dapper ORM", "EF Core 08. Dapper ORM\EF Core 08. Dapper ORM.csproj", "{985C2518-F0B2-46EC-9609-4BD199AD56BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EF Core 09", "EF Core 09", "{FBC0983C-C463-43CC-8DAF-0BA48FA89829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF Core 09. Dapper methods. Relationships", "EF Core 09. Dapper methods. Relationships\EF Core 09. Dapper methods. Relationships.csproj", "{A695D400-EAB8-4EC9-A77C-A80B64F51F6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -145,6 +149,10 @@ Global
 		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{985C2518-F0B2-46EC-9609-4BD199AD56BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A695D400-EAB8-4EC9-A77C-A80B64F51F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A695D400-EAB8-4EC9-A77C-A80B64F51F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A695D400-EAB8-4EC9-A77C-A80B64F51F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A695D400-EAB8-4EC9-A77C-A80B64F51F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +178,7 @@ Global
 		{FCE63425-4500-4275-ACDE-1ADE5A51CC42} = {5E10918C-8A4A-4571-AFF7-3B0CDCEB2ED6}
 		{71093A66-E7A3-4058-A24F-2900975ED7C7} = {5E10918C-8A4A-4571-AFF7-3B0CDCEB2ED6}
 		{985C2518-F0B2-46EC-9609-4BD199AD56BC} = {8973C2D1-2D6D-4D31-ABBF-DD5349C29B10}
+		{A695D400-EAB8-4EC9-A77C-A80B64F51F6A} = {FBC0983C-C463-43CC-8DAF-0BA48FA89829}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F786F157-37E3-4274-B297-3F3073DD6C66}
